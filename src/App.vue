@@ -704,7 +704,7 @@ export default {
     height: 100%;
     position: fixed;
     top: 0px;
-    z-index: -1;
+    z-index: 0;
     background-image: url("../public/contact-background.jpg");
     background-position: center;
     background-size: cover;
@@ -798,6 +798,7 @@ export default {
   height: 250px;
   margin-top: 25px;
   background: #000;
+  position: relative;
   .footer-disc {
     height: 220px;
     background: #000;
